@@ -19,25 +19,20 @@
   .card:nth-child(2n) {
     margin-top: 50px;
     }
+   .card .card-body .card-img-overlay .job{
+      font-size: 9px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
   .card:nth-child(3n-1) {
     margin-top: 50px;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .card .card-body .card-img-overlay .job{
-      font-size: 10px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
     .card .card-body .card-img-overlay .job{
       font-size: 15px;
     }
 }
+
 
 
 
